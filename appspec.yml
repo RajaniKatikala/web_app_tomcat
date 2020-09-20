@@ -2,7 +2,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/sample_webapp.war
+  - source: target/Helloworld.war
     destination: /home/ubuntu/javapp
 hooks:
   AfterInstall:
