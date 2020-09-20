@@ -6,9 +6,9 @@ files:
     destination: /home/ubuntu/javapp
 hooks:
   AfterInstall:
-     - location: script/install_dependencies.sh
+     - location: script/install_dependencies
        timeout: 300
        runas: root
-     - location: script/start_server.sh
+     - location: script/start_server
        timeout: 300
        runas: root
