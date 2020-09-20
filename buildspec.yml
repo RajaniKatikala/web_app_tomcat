@@ -19,7 +19,7 @@ phases:
 artifacts:
   type: zip
   files:
-    - 'appspec.yml'
-    - 'scripts/start_server'
-    - 'scripts/install_dependencies'
-    - 'target/sample_webapp.war'
+    - appspec.yml
+    - script/start_server
+    - script/install_dependencies
+    - target/sample_webapp.war'
