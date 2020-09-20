@@ -22,4 +22,4 @@ artifacts:
     - appspec.yml
     - script/start_server
     - script/install_dependencies
-    - target/sample_webapp.war'
+    - target/sample_webapp.war
