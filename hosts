@@ -16,9 +16,10 @@
 #192.168.100.10
 
 [webserver]
-ip-10-0-0-61.us-east-2.compute.internal
-ip-10-0-0-16.us-east-2.compute.internal
-
+#ip-10-0-0-61.us-east-2.compute.internal
+#ip-10-0-0-16.us-east-2.compute.internal
+10.0.0.16
+10.0.0.61
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
