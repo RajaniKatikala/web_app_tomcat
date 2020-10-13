@@ -1,0 +1,10 @@
+---
+- hosts: webserver
+  remote_user: root
+  become: yes
+
+  tasks:
+   - name: copying file to nodes
+     copy:
+         src: /etc/ansible/
+         dest: /root
