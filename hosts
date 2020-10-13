@@ -18,8 +18,10 @@
 [webserver]
 #ip-10-0-0-61.us-east-2.compute.internal
 #ip-10-0-0-16.us-east-2.compute.internal
-10.0.0.16
-10.0.0.61
+#10.0.0.16
+#10.0.0.61
+ip-10-0-0-16
+ip-10-0-0-61
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
